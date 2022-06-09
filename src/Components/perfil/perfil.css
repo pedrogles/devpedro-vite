@@ -1,0 +1,171 @@
+/* Containers */
+#first-container{
+    background-image: linear-gradient(#000000, #a8018c);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#second-container{
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.836);
+    color: #2a2b00;
+    border-radius: 1em;
+    box-shadow: inset 0 0 1em #ffffff, 0 0 1em #ffffff;
+    padding: 2em;
+    margin-top: 8em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "inicio inicio"
+                         "resumo experiencia"
+                         "hab formacao"
+                         "idiomas curso";
+    
+}
+/* Organização dos elementos com Grid */
+.inicio{
+    display: flex;
+    grid-area: inicio;
+}
+.resumo{
+    grid-area: resumo;
+    width: 22em;
+}
+.experiencia{
+    grid-area: experiencia;
+}
+.hab{
+    grid-area: hab;
+}
+.formacao{
+    grid-area: formacao;
+}
+.curso{
+    grid-area: curso;
+    width: 22em;
+}
+.idiomas{
+    grid-area: idiomas;
+}
+/* Tags */
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 2.5em;
+}
+h4{
+    font-size: 1em;
+}
+p{
+    font-size: 1em;
+}
+/* imagem */
+#foto{
+    height: 250px;
+    width: 230px;
+    border-radius: 5em;
+}
+/* Nome e Função */
+#pedro-dev{
+    padding-top: 5.7em;
+}
+/* grid habilidades */
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+.download--cv{
+    font-size: 0.9em;
+    margin: 2em;
+    padding: 0.1em;
+}
+.a-cv{
+    color: #ffffff;
+}
+.a-cv:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* Seta */
+.s-down a {
+    color: #ffffff;
+    animation: anima-seta 1200ms ease infinite;
+    opacity: 0;
+}
+@keyframes anima-seta {
+    to {
+        opacity:1;
+        transform: translateY(18px);
+    }
+}
+/* Responsividade */
+@media (max-width: 992px){
+    #second-container{
+        width: 90vw;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    #foto{
+        width: 260px;
+        height: 270px;
+    }
+    .resumo{
+        margin-top: 1em;
+    }
+    .experiencia{
+        margin-top: 1em;
+    }
+    .curso{
+        width: 37vw;
+    }
+}
+@media (max-width: 1312px){
+    #second-container{
+        width: 86vw;
+    }
+    .resumo{
+        margin-top: 1em;
+        width: 34vw;
+    }   
+    .experiencia{margin-top: 1em;
+    }
+    .curso{
+        width: 20em;
+    }
+}
+@media (max-width: 688px){
+    #second-container{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    #foto{
+        width: 250px;
+        height: 250px;
+    }
+    #pedro-dev{
+        padding-top: 1em;
+    }
+    h1{
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+    h2{
+        font-size: 1.4em;
+    }
+    .resumo{
+        width: 65vw;
+    }
+    .curso{
+        width: 65vw;
+    }
+}

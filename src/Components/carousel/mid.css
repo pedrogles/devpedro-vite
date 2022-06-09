@@ -1,0 +1,12 @@
+#home{
+    z-index: 0;
+}
+img{
+    height: 95vh;
+}
+
+@media (max-width: 688px){
+    img{
+        height: 90vh;
+    }
+}

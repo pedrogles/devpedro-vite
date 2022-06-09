@@ -1,0 +1,27 @@
+#container-footer{
+    background-image: linear-gradient(#a8018c, #ffffff);
+    height: 25em;
+    color: #000000;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p-contato{
+    color: #000000;
+}
+.backto--home{
+    padding: 1em 1em;
+    font-size: 0.8em;
+    margin-top: 5em;
+}
+a{
+    color: #000000;
+    padding: 0.4em 0.4em;
+}
+.b-home:hover{
+    color: #000000;
+    text-decoration: underline;
+}
