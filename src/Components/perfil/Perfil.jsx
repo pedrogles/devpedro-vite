@@ -1,6 +1,7 @@
 import Eu from '../../img/eu.png'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import './perfil.css'
+import pdf from "../../pdf/DevFrontEnd-PedroGabriel.pdf"
 
 function Perfil() {
     return (
@@ -65,7 +66,7 @@ function Perfil() {
                 </div>
             </div>
             <div className='download--cv'>
-                <a className='a-cv' href="">Download PDF.</a>
+                <a className='a-cv' href={pdf} target="_blank">Download PDF.</a>
             </div>
         </div>
     )

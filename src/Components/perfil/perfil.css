@@ -111,8 +111,7 @@ p{
         font-size: 2em;
     }
     #foto{
-        width: 260px;
-        height: 270px;
+        display: none;
     }
     .resumo{
         margin-top: 1em;
