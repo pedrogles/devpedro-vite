@@ -1,13 +1,14 @@
 #f-container{
     background-color: #ffffff;
     width: 100%;
-    height: 4vh;
+    height: 2em;
     position: fixed;
     z-index: 1;
 }
 #s-container{
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 .f-end{
     margin-left: 2em;
@@ -30,19 +31,19 @@ a.h-link{
 }
 @media (max-width: 992px){
     #f-container{
-        height: 4vh;       
+        height: 2em;       
     } 
 }
 
 @media (max-width: 1600px){
     #f-container{
-        height: 4vh;       
+        height: 2em;       
     } 
 }
 @media (max-width: 688px){
     #f-container{
         margin-top: 93vh;
-        height: 10vh;
+        height: 8vh;
         display: flex;
         justify-content: center;
         align-items: center;
