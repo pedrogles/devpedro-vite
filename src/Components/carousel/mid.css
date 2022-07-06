@@ -4,9 +4,23 @@
 img{
     height: 95vh;
 }
-
+.redirect{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.redirect:hover{
+    color: #82eff7;
+}
+.description-background{
+    background-color: #000000a6;
+    border-radius: 20px;
+}
 @media (max-width: 688px){
     img{
+        width: 500vw;
         height: 90vh;
+    }
+    .description-background p {
+        font-size: 0.8em;
     }
 }
