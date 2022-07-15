@@ -21,7 +21,7 @@ function ControlledCarousel() {
             <h3>Árvore de Links</h3>
             <p>Árvore de Links feita com HTML e CSS. <br/> 
             <a 
-            href="https://pedrogles.github.io/arvore-links"
+            href="https://pedrogles.github.io/LinkTree"
             className='redirect'
             target="_blank">Clique aqui.</a></p>
           </Carousel.Caption>
